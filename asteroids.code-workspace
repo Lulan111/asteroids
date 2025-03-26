@@ -1,9 +1,7 @@
-{
-	"folders": [
-		{
-			"name": "asteroids",
-			"path": "."
-		}
-	],
-	"settings": {}
+python3 -m venv venv{
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
 }
