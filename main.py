@@ -7,6 +7,7 @@ from constants import *
 from player import *
 from asteroid import *
 from asteroidfield import *
+from shot import Shot
 
 print(f"Screen width: {SCREEN_WIDTH}")
 print(f"Screen height: {SCREEN_HEIGHT}")
