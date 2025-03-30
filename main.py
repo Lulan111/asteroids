@@ -39,6 +39,12 @@ def main():
             entity.draw(screen)
         updateable.update(dt)
         pygame.display.flip()  # Update display
+    
+        for asteroid in asteroids:
+            if asteroid.collision(player):
+                print("Game Over!")
+                import sys
+                sys.exit()
        
 
 if __name__ == "__main__":
