@@ -54,7 +54,10 @@ def main():
                 print("Game Over!")
                 import sys
                 sys.exit()
-       
+            for shot in shots:    
+                if asteroid.collision(shot):
+                    shot.kill()
+                    asteroid.kill()
 
 if __name__ == "__main__":
     main()
